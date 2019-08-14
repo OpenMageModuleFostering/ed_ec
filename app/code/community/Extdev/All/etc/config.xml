@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Extdev_All>
+            <version>1.0</version>
+        </Extdev_All>
+    </modules>
+    <global>
+        <helpers>
+            <ednall>
+                <class>Extdev_All_Helper</class>
+            </ednall>
+        </helpers>
+        <blocks>
+            <ednall>
+                <class>Extdev_All_Block</class>
+            </ednall>
+            <adminhtml>
+                <rewrite>
+                    <system_config_tabs>Extdev_All_Block_System_Config_Tabs</system_config_tabs>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Extdev_All>
+                    <files>
+                        <default>Extdev_All.csv</default>
+                    </files>
+                </Extdev_All>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>

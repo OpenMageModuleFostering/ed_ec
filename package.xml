@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>ED_EC</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Provides easy way to be connected with your customers via Skype</summary>
+    <description>After activating the module on the System &gt; Configuration &gt; ExtDev Extensions &gt; Easy Calls page the column Phone will be added to the Orders grid. Column contains the user's phone number specified in the Shipping Address or in the Biling Address. The priority of the source address for the phone column can be set on the configuration page of the module.&#xD;
+&#xD;
+Now you can call the customer by simply clicking on telephone number in the column provided by this extension.</description>
+    <notes>First release of the extension</notes>
+    <authors><author><name>ExtDev Company</name><user>extdev</user><email>extdev.net@gmail.com</email></author></authors>
+    <date>2012-08-07</date>
+    <time>20:19:15</time>
+    <contents><target name="magecommunity"><dir name="Extdev"><dir name="All"><dir name="Block"><dir name="System"><dir name="Config"><file name="Tabs.php" hash="35f9637fa67983a490cffac5d3b89d5f"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="8027bee2112de91c1097a35f90431011"/></dir><dir name="Model"><dir name="Source"><file name="Abstract.php" hash="5ff8ff99dbe936bec3817e7348f37f15"/></dir></dir><dir name="etc"><file name="config.xml" hash="6fba388f60494a50fde7cf3fab2ee6b5"/><file name="system.xml" hash="3bad7636cf2a74de5c6ab64389d27d93"/></dir></dir><dir name="Easycalls"><dir name="Block"><dir name="Adminhtml"><dir name="Widget"><dir name="Grid"><dir name="Column"><dir name="Renderer"><file name="Eclink.php" hash="3cf09b20d49de434150406bfd324a33f"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Config.php" hash="4088ae08e5bf55e6ad916ab552bdfc86"/><file name="Data.php" hash="436f8aede17bba96c05b70cc63ad79ca"/><file name="Observer.php" hash="1dec2b3fbddc8689d375b74d4711dc85"/></dir><dir name="Model"><dir name="Source"><file name="Abstract.php" hash="61c2c61e39f2421f24e06fc613d4d511"/><dir name="Config"><file name="Phonessrc.php" hash="edea5eb9f0ae6e871661a550bde24028"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="15e694374faa99b4650f6305a95f9607"/><file name="system.xml" hash="0f89a37f07b75156f9aa22a29a45a1d0"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Extdev_Easycalls.xml" hash="1a16cf046dcbb92a4a0b6e0fdf8f07f5"/><file name="Extdev_All.xml" hash="f259561877e53aa1d05e7302fd3f8723"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Extdev_Easycalls.csv" hash="53197242f3ff97abbe892eb82fa84ca7"/><file name="Extdev_All.csv" hash="5471df37e46adaf9360ee762c8000baa"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

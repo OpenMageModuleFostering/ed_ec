@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ED_EC",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Provides easy way to be connected with your customers via Skype",
+    "authors": [
+    {
+        "name": "ExtDev Company",
+        "email": "extdev.net@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

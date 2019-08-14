@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <ednall translate="label" module="ednall">
+            <label>ExtDev Extensions</label>
+            <sort_order>250</sort_order>
+        </ednall>
+    </tabs>
+</config>
